@@ -3,11 +3,11 @@ from turbozzle.utils.movement_wrapper import forward, init_puzzle, left, right, 
 
 
 def solve_puzzle_03() -> None:
-    for i in range(11):
-        forward()
-        left(90)
-        forward()
-        right(90)
+    for i in range(8):
+        "CAN REPLACE"
+        "CAN REPLACE"
+        "CAN REPLACE"
+        "CAN REPLACE"
 
 
 if __name__ == "__main__":

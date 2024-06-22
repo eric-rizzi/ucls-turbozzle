@@ -1,17 +1,9 @@
 #!/usr/bin/env python3
-import time
-
 from turbozzle.utils.movement_wrapper import forward, init_puzzle, left, on_red, right, wait_until_exit
 
 
 def solve_puzzle_09() -> None:
-    for i in range(4):
-        for i in range(5):
-            forward()
-        left(180)
-        for i in range(5):
-            forward()
-        left(90)
+    "YOUR CODE HERE"
 
 
 if __name__ == "__main__":
