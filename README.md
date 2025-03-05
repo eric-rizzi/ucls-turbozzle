@@ -25,3 +25,9 @@ learned.
     - More stable version of RoboZZle: https://alexanderson1993.github.io/robozzle-react/
 - Inspiration for doing a Python version of RoboZZle for learning purposes
     - https://www.pythonclassroom.com/turtle-graphics/turtle-maze
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the
+[LICENSE](LICENSE) file for details.
+
