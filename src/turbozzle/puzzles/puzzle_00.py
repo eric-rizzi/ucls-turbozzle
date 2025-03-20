@@ -7,7 +7,8 @@ def solve_puzzle_00() -> None:
         forward()
 
 
-init_puzzle("levels/puzzle_00.png", x=-250, y=0, speed=3)
-solve_puzzle_00()
+if __name__ == "__main__":
+    init_puzzle("levels/puzzle_00.png", x=-250, y=0, speed=3)
+    solve_puzzle_00()
 
-wait_until_exit()
+    wait_until_exit()

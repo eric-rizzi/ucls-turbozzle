@@ -26,7 +26,8 @@ def solve_puzzle_11() -> None:
     make_tree(4)
 
 
-init_puzzle("levels/puzzle_11.png", x=-0, y=0, speed=0)
-solve_puzzle_11()
+if __name__ == "__main__":
+    init_puzzle("levels/puzzle_11.png", x=-0, y=0, speed=0)
+    solve_puzzle_11()
 
-wait_until_exit()
+    wait_until_exit()

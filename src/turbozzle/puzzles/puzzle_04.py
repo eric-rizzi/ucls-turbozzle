@@ -24,7 +24,8 @@ def solve_puzzle_04() -> None:
         move_forward_3_and_turn()
 
 
-init_puzzle("levels/puzzle_04.png", x=-200, y=-200, speed=0)
-solve_puzzle_04()
+if __name__ == "__main__":
+    init_puzzle("levels/puzzle_04.png", x=-200, y=-200, speed=0)
+    solve_puzzle_04()
 
-wait_until_exit()
+    wait_until_exit()

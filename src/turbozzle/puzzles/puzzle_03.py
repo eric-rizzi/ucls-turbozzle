@@ -10,7 +10,8 @@ def solve_puzzle_03() -> None:
         right(90)
 
 
-init_puzzle("levels/puzzle_03.png", x=-300, y=-250, speed=0)
-solve_puzzle_03()
+if __name__ == "__main__":
+    init_puzzle("levels/puzzle_03.png", x=-300, y=-250, speed=0)
+    solve_puzzle_03()
 
-wait_until_exit()
+    wait_until_exit()
