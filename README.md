@@ -11,10 +11,12 @@ In addition, the lesson is designed to help students who are working with
 
 ## Instructions
 
-The code is paired with a [PRIMM-based worksheet](https://docs.google.com/document/d/1aCPLTZ5ZrnDYkBXXE87BTv3F9QBSN4nd8OhKO1DcTCc)
-that guides students through the problems and asks questions intending to make
-them think more deeply about how the puzzles pertain to concepts they've
-learned.
+The code/puzzles in this repo are paired with two PRIMM + Reflection worksheets
+that guide students through the problems and asks questions intending to make
+them think more deeply about how the puzzles pertain to concepts they've learned.
+
+- [Getting Start Worksheet](https://docs.google.com/document/d/1aCPLTZ5ZrnDYkBXXE87BTv3F9QBSN4nd8OhKO1DcTCc)
+- [Debugging and Extensions Worksheet](https://docs.google.com/document/d/1VqiqeUR5QHOZOwnCA5jqNzyj_egTdh7DZ9-goCi3vAc)
 
 > Note: The version of the code to be used by students is on the `for_students` branch.
 
