@@ -2,16 +2,19 @@
 from turbozzle.utils.movement_wrapper import forward, init_puzzle, left, wait_until_exit
 
 
+def helper_function_1():
+    for i in range(7):
+        forward()
+
+
 def solve_puzzle_06() -> None:
     for i in range(5):
-        for i in range(2):
+        for j in range(2):
             forward()
         left(90)
-        for i in range(7):
-            forward()
+        helper_function_1()
         left(180)
-        for i in range(7):
-            forward()
+        helper_function_1()
         left(90)
 
 
