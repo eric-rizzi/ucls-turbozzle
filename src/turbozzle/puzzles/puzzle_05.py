@@ -4,7 +4,7 @@ from turbozzle.utils.movement_wrapper import forward, init_puzzle, left, on_purp
 
 def solve_puzzle_05() -> None:
     left(90)
-    while True:
+    for i in range(55):
         forward()
         if on_red():
             right(90)
