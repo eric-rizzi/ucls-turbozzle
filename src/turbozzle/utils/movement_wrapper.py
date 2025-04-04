@@ -13,6 +13,8 @@ def __handle_speed(config: LevelConfig) -> None:
     speed: int = config.speed
     if speed != 0:
         wait = (6 - speed) * 0.1
+        if wait < 0:
+            wait = 0.05
         time.sleep(wait)
 
 
@@ -68,6 +70,9 @@ def _sample_color(config: LevelConfig, x: int, y: int) -> typing.Optional[str]:
 
 
 def init_puzzle(background_path: str, *, x: int, y: int, speed: int) -> None:
+    if speed < 0:
+        speed = 0
+
     global CONFIG_INFO
 
     file_name = os.path.basename(background_path)
